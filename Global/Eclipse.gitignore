@@ -1,4 +1,3 @@
-*.pydevproject
 .metadata
 bin/
 tmp/
@@ -9,9 +8,7 @@ tmp/
 local.properties
 .settings/
 .loadpath
-
-# Eclipse Core
-.project
+.recommenders
 
 # External tool builders
 .externalToolBuilders/
@@ -19,23 +16,40 @@ local.properties
 # Locally stored "Eclipse launch configurations"
 *.launch
 
-# CDT-specific
+# PyDev specific (Python IDE for Eclipse)
+*.pydevproject
+
+# CDT-specific (C/C++ Development Tooling)
 .cproject
 
-# JDT-specific (Eclipse Java Development Tools)
-.classpath
+# CDT- autotools
+.autotools
 
 # Java annotation processor (APT)
 .factorypath
 
-# PDT-specific
+# PDT-specific (PHP Development Tools)
 .buildpath
 
 # sbteclipse plugin
 .target
+
+# Tern plugin
+.tern-project
 
 # TeXlipse plugin
 .texlipse
 
 # STS (Spring Tool Suite)
 .springBeans
+
+# Code Recommenders
+.recommenders/
+
+# Annotation Processing
+.apt_generated/
+
+# Scala IDE specific (Scala & Java development for Eclipse)
+.cache-main
+.scala_dependencies
+.worksheet
